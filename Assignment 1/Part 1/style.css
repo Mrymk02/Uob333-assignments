@@ -1,0 +1,245 @@
+
+/* background */
+body{
+  background-image: linear-gradient(45deg, #94C4FC, #DDC3FC);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* body container */
+.container{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding-top: 125px;
+  padding-bottom: 125px;
+
+}
+
+/* fixed header and footer */
+header, footer{
+  min-width: 100%;
+  position: fixed;
+  background-color: black;
+  margin-left: -10px;
+}
+
+/* header fixed to top */
+header{
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* logo sizing */
+header img{
+  padding: 15px;
+}
+
+/* navbar top right container*/
+header nav{
+display: inline-block;
+margin: auto 0;
+padding-right: 15px;
+}
+
+/* navbar top right links */
+header nav a{
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  padding: 10px;
+  margin: 0 2px;
+}
+
+/* on hover turn purple */
+header nav a:hover{
+  background-color: purple;
+}
+
+/* header fixed to bottom */
+footer{
+  bottom: 0;
+  min-height: 50px;
+  text-align: center;
+}
+
+footer p{
+  color: white;
+}
+
+/* main body flex */
+main{
+  min-width: 100%;
+  min-height: 650px;
+  display: flex;
+  justify-content: center;
+}
+
+/* vertical nav buttons container */
+main nav{
+  margin: 30% 10%;
+}
+
+/* vertical nav buttons */
+main a{
+  color: #4D18AC;
+  display: block;
+  text-decoration: none;
+  margin: 20px 10px;
+  padding: 5px;
+  font-size: 25px;
+  border-radius: 5px;
+  background-color: #D4C1F7;
+}
+
+/* dark: #4D18AC */
+
+/* light: #BDA0F2 */
+
+/* extra light: #D4C1F7 */
+
+/* hover light: #C7AFF3 */
+
+/* on hover change color */
+main a:hover{
+background-color: #BDA0F2;
+border: 2px solid #4D18AC;
+}
+
+/* yellow and pink outer-container */
+section{
+margin: 20px 0;
+}
+
+/* yellow inner-container */
+.yellow{
+  width: 320px;
+  background-color:rgba(189,160,242,0.4);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+/* centered image and sizing */
+.yellow img{
+  display: block;
+  width: 200px;
+  margin: 20px auto;
+}
+
+/* pink inner-container */
+.pink{
+  width: 800px;
+  background-color:rgba(77, 24, 172, 0.3);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/* cards */
+.pink-cards{
+  display: flex;
+  justify-content: space-around;
+  height: 200px;
+  padding-top:210px;
+  padding-bottom:210px;
+  color: #4D18AC;
+}
+
+/* all cards */
+.pink-card{
+  height: 200px;
+  width: 200px;
+  background-color: #D4C1F7;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(77, 24, 172, 0.8);
+  text-align: center;
+  padding: 5px;
+}
+
+/* card icons sizing */
+ .fa-solid{
+  font-size: 56px;
+  margin-top: 18px;
+}
+
+/* pink section text */
+.pink h1, .pink p{
+  color:#4D18AC;
+  text-align: center;
+}
+
+/* Table css */
+table,th,td
+{
+color: black;
+border: 2px solid black;
+border-collapse:collapse;
+padding: 8px;
+}
+
+.table-container{
+  padding-top: 2%;
+  padding-bottom: 5%;
+}
+
+hr{
+  border: 1px solid black;
+}
+
+.fa-angles-down{
+  margin-top: 3px;
+  font-size: 20px;
+}
+
+/* About us */
+.abt-us{
+  color: #4D18AC;
+}
+
+.abt-us img{
+  width: 170px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  border-radius:10px;
+  margin-top: 10px;
+  box-shadow: 5px 5px 10px rgba(77, 24, 172, 0.8);
+  background-color: #D4C1F7;
+}
+
+.text{
+
+}
+
+.text h1{
+  display: block;
+  font-size:40px;
+  font-style: italic;
+  color: white;
+  text-shadow: 2px 2px 5px rgba(77, 24, 172, 0.8);
+}
+
+.Our-Hobbies h1{
+  color: #4D18AC;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.text p{
+  font-size: 15px;
+  padding: 10px;
+  font-style: oblique;
+  color: white;
+  text-shadow: 2px 2px 5px rgba(77, 24, 172, 0.8);
+
+}
+.Our-Hobbies{
+  font-style: oblique;
+}
+/* Contact us */
+.pink-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
