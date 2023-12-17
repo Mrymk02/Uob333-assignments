@@ -1,2 +1,2 @@
 # Uob333-assignments
-my assignments for sm2 2022-2023
+My assignments for semester 2 of 2022-2023
